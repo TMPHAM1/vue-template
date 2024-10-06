@@ -10,7 +10,9 @@
     "test:e2e": "playwright test"
   },
   "dependencies": {
-    "vue": "^3.4.29"
+    "primeicons": "^7.0.0",
+    "vue": "^3.4.29",
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
     "@playwright/test": "^1.44.1",

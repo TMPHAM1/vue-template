@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./src/**/*.{js, ts, jsx, tsx, vue}'],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx,vue}'],
   theme: {
     extend: {
       fontFamily: {
@@ -10,6 +10,9 @@ export default {
         '70/30': '70% 28%'
       }
     },
+  },
+  variants: {
+    extend: {}
   },
   plugins: [],
 }
